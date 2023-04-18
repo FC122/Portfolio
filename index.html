@@ -1,12 +1,192 @@
 <!DOCTYPE html>
-<html lang="hr">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ivana Ivanić</title>
+	<title>Personal Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1><?= "Hello LV1 task" ?></h1>
+	<header>
+		<div class="logo">
+			<img src="/Users/fcica/LV1_WP/lv1-FC122/assets/unicorn (1).png"  alt="Logo">
+		</div>
+		<nav>
+			<ul>
+				<li><p href="#">Home</p></li>
+				<li><p href="#">Portfolio</p></li>
+				<li><p href="#">About Me</p></li>
+				<li><p href="#">Testimonials</p></li>
+			</ul>
+		</nav>
+		<div class="contact-button">
+			<p href="#">Contact Me</p>
+		</div>
+	</header>
+
+	<main>
+	    <section id="about">
+			<div class="about-content">
+				<div class="about-text">
+					<p>Hi, I'm Filip</p>
+					<h3>I write Test Automation and make sure software is up to standard</h3>
+					<p>Software Development Engineer in Test</p>
+					<div class="contact-button" style="float: left;">
+						Get In Touch</a>
+					</div>
+				</div>
+				<div class="about-image">
+					<img src="/Users/fcica/LV1_WP/lv1-FC122/assets/IMG_5848.jpg" alt="Image">
+				</div>
+			</div>
+		</section>
+
+        <section id="expertise">
+            <p style="margin: 0px;">My Skils</p>
+			<h2>My Expertise</h2>
+			<div class="expertise-blocks">
+				<div class="block">
+					<h3>Test Automation</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed vel enim nec est bibendum malesuada non et nulla. Maecenas vitae augue vel mauris dictum congue. Vestibulum bibendum, eros id ultricies hendrerit, lacus justo laoreet mauris, non fringilla ex libero eu ipsum. Nullam vel erat id ante sagittis commodo. Nulla nec mollis tellus.</p>
+				</div>
+				<div class="block">
+					<h3>Planing</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed vel enim nec est bibendum malesuada non et nulla. Maecenas vitae augue vel mauris dictum congue. Vestibulum bibendum, eros id ultricies hendrerit, lacus justo laoreet mauris, non fringilla ex libero eu ipsum. Nullam vel erat id ante sagittis commodo. Nulla nec mollis tellus.</p>
+				</div>
+				<div class="block">
+					<h3>Security</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed vel enim nec est bibendum malesuada non et nulla. Maecenas vitae augue vel mauris dictum congue. Vestibulum bibendum, eros id ultricies hendrerit, lacus justo laoreet mauris, non fringilla ex libero eu ipsum. Nullam vel erat id ante sagittis commodo. Nulla nec mollis tellus.</p>
+				</div>
+				<div class="block">
+                    <h3>UI/UX</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed vel enim nec est bibendum malesuada non et nulla. Maecenas vitae augue vel mauris dictum congue. Vestibulum bibendum, eros id ultricies hendrerit, lacus justo laoreet mauris, non fringilla ex libero eu ipsum. Nullam vel erat id ante sagittis commodo. Nulla nec mollis tellus.</p>
+				</div>
+			</div>
+		</section>
+
+        <section id="about">
+			<div class="about-content">
+                <div class="about-image">
+					<img src="/Users/fcica/LV1_WP/lv1-FC122/assets/IMG_5848.jpg" alt="About Me Image">
+				</div>
+				<div id="second" class="about-text" style="padding-right: 300;">
+                    <p style="margin: 0px;">About</p>
+					<h2>About Me</h2>
+					<h3>My Story</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed vel enim nec est bibendum malesuada non et nulla. Maecenas vitae augue vel mauris dictum congue. Vestibulum bibendum, eros id ultricies hendrerit, lacus justo laoreet mauris, non fringilla ex libero eu ipsum. Nullam vel erat id ante sagittis commodo. Nulla nec mollis tellus. Donec varius sapien libero, at fringilla metus eleifend sed. Fusce quis elit vel elit facilisis dignissim a et felis. Aenean ullamcorper nisi massa, eu dictum mauris porttitor vitae. In blandit, dolor eget dictum sagittis, eros nibh luctus risus, non elementum velit purus vitae dolor. Pro.</p>
+				</div>
+				
+			</div>
+		</section>
+
+		<section id="portfolio">
+            <h2>My Portfolio</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://assets.asana.biz/transform/d2ffb5c8-a7c2-4e39-8447-f8e2501c5bdc/article-project-planning-project-design-2x" alt="Project 1">
+                    <h3>Project Title 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed vel enim nec est bibendum malesuada non et nulla.</p>
+                </div>
+                <div class="card">
+                    <img src="https://www.ecosys.net/wp-content/uploads/2021/02/Project-Analytics-feature.jpg" alt="Project 2">
+                    <h3>Project Title 2</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed vel enim nec est bibendum malesuada non et nulla.</p>
+                </div>
+                <div class="card">
+                    <img src="https://kantata.marketing/wp-content/uploads/2023/01/project.jpg" alt="Project 3">
+                    <h3>Project Title 3</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed vel enim nec est bibendum malesuada non et nulla.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews">
+            <h2>Reviews</h2>
+            <div class="review-container">
+                <div class="review">
+                    <div class="stars">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <p class="review-comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut lorem eget ipsum volutpat aliquam.</p>
+                    <div class="review-author">
+                        <img src="https://images.unsplash.com/photo-1484515991647-c5760fcecfc7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Z3V5fGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="Person 1">
+                        <p class="author-name">John Smith</p>
+                    </div>
+                </div>
+                <div class="review">
+                    <div class="stars">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <p class="review-comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut lorem eget ipsum volutpat aliquam.</p>
+                    <div class="review-author">
+                    <img src="https://images.pexels.com/photos/1212984/pexels-photo-1212984.jpeg?cs=srgb&dl=pexels-daniel-xavier-1212984.jpg&fm=jpg" alt="Person 2">
+                    <p class="author-name">Jane Doe</p>
+                    </div>
+                    </div>
+                    <div class="review">
+                    <div class="stars">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    </div>
+                    <p class="review-comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut lorem eget ipsum volutpat aliquam.</p>
+                    <div class="review-author">
+                    <img src="https://img.freepik.com/free-photo/brunette-business-woman-with-wavy-long-hair-blue-eyes-stands-holding-notebook-hands_197531-343.jpg?w=2000" alt="Person 3">
+                    <p class="author-name">Mike Smith</p>
+                    </div>
+                    </div>
+                    </div>
+                    </section>
+
+                    <section id="contact">
+                        <h2>Contact Me</h2>
+                        <div class="contact-container">
+                            <div class="contact-info">
+                                <img src="/Users/fcica/LV1_WP/lv1-FC122/assets/IMG_5848.jpg" style="object-fit: cover;" alt="Profile Picture">
+                                <p class="tiny-about">Let's Talk</p>
+                                <h3>Hy, I'm Filip!</h3>
+                                <p class="about-me">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed vel enim nec est bibendum malesuada non et nulla. Maecenas vitae augue vel mauris dictum congue.</p>
+                                <div class="contact-button">
+                                   Get in Touch
+                                </div>
+                            </div>
+                            <div class="contact-form">
+                                <form>
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" name="name" required style="border: 1px solid black;">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email" required style="border: 1px solid black;">
+                                    <label for="message">Message</label>
+                                    <textarea id="message" name="message" required style="border: 1px solid black;"></textarea>
+                                    <input type="submit" value="Send Message">
+                                </form>
+                            </div>
+                        </div>
+                    </section>
+                    
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="logo">
+                <img src="/Users/fcica/LV1_WP/lv1-FC122/assets/unicorn (1).png"  alt="Logo">
+            </div>
+            <div class="social-links">
+                <a href="#sad"><i class="fab fa-facebook-f"></i></a>
+                <a href="#asd"><i class="fab fa-twitter"></i></a>
+                <a href="#asd"><i class="fab fa-instagram"></i></a>
+                <a href="#asd"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <p>&copy; 2021 John Doe. All rights reserved.</p>
+    </footer>
+    
 </body>
 </html>

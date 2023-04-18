@@ -1,0 +1,755 @@
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.logo img {
+	height: 35px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: #333;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.contact-button a {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.contact-button {
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.contact-info .contact-button {
+    width: 100px;
+}
+
+.about-text .contact-button {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.contact-button a:hover {
+	background-color: #666;
+}
+
+.about-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 50px;
+}
+
+.about-text {
+	max-width: 600px;
+}
+
+.about-text h2 {
+	font-size: 3em;
+	margin-bottom: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.about-text h3 {
+	font-size: 2em;
+	margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.about-text p {
+	font-size: 1em;
+	line-height: 1.5; 
+}
+
+.get-in-touch a {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.get-in-touch a:hover {
+	background-color: #666;
+}
+
+.about-image img {
+	max-width: 100;
+	height: auto;
+	border-radius: 10%;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#expertise {
+	padding: 50px;
+    background-color: #f7f7f7;
+}
+
+.expertise-blocks {
+	display: flex;
+    background-color: #f7f7f7;
+}
+
+.block {
+	width: calc(25% - 15px);
+	padding: 40px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 10px;
+    background-color: white;
+    text-align: justify;
+}
+
+.block:last-child {
+	margin-right: 0;
+}
+
+#about {
+	padding: 50px 0;
+}
+
+.about-content {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.about-text {
+	flex: 1;
+}
+
+.about-text h2 {
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+.about-text p {
+	font-size: 1.2em;
+	line-height: 1.5;
+	margin-bottom: 40px;
+}
+
+.about-image {
+    padding-top: 50px;
+	flex: 1;
+	text-align: center;
+}
+
+.about-image img {
+	max-width: 75%;
+	border-radius: 5%;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.about-image::before {
+	display: block;
+	font-size: 1.5em;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.about-image::after {
+	content: "";
+	display: block;
+	width: 40px;
+	height: 2px;
+	margin: 20px auto;
+	background-color: #000;
+}
+
+#portfolio {
+	padding: 50px 0;
+}
+
+.card-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.card {
+	width: 385px;
+	margin: 20px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card img {
+	max-width: 100%;
+	height: auto;
+}
+
+.card h3 {
+	font-size: 1.5em;
+	margin: 20px;
+}
+
+.card p {
+	font-size: 1.2em;
+	margin: 0 20px 20px;
+}
+
+.card a {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #000;
+	color: #fff;
+	border-radius: 5px;
+	margin: 20px;
+	text-decoration: none;
+}
+
+.card a:hover {
+	background-color: #fff;
+	color: #000;
+	border: 1px solid #000;
+}
+
+#reviews {
+	background-color: white;
+	padding: 50px 0;
+}
+
+.reviews-text {
+	font-size: 1.2em;
+	margin: 0 auto 30px;
+	max-width: 600px;
+	text-align: center;
+}
+
+.review-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.review {
+	width: 350px;
+	margin: 20px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+	padding: 20px;
+	text-align: center;
+}
+
+#reviews h2{
+    padding-left: 20px;
+    padding-right: 25px;
+}
+
+.stars {
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+
+.checked {
+	color: orange;
+}
+
+.review-comment {
+	font-size: 1.1em;
+	margin-bottom: 20px;
+}
+
+.review-author img {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+
+.author-name {
+	font-weight: bold;
+	font-size: 1.2em;
+	margin: 0;
+}
+
+#contact {
+	color: #000000;
+	padding: 50px 0;
+}
+
+.contact-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.contact-info {
+	flex-basis: 50%;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.contact-form {
+	flex-basis: 50%;
+	text-align: center;
+}
+
+.contact-info img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+
+.tiny-about {
+	font-size: 1.2em;
+	margin: 0;
+}
+
+.about-me {
+	font-size: 1.2em;
+	margin-bottom: 30px;
+}
+
+.contact-button a {
+	background-color: #fff;
+	color: #8B5FBE;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 1.2em;
+	transition: background-color 0.3s;
+}
+
+.contact-button a:hover {
+	background-color: #eee;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+label {
+	display: block;
+	font-size: 1.2em;
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], textarea {
+	padding: 10px;
+	font-size: 1.2em;
+	border-radius: 5px;
+	border: 1px solid black;;
+	margin-bottom: 20px;
+	width: 100%;
+	max-width: 600px;
+	background-color: #fff;
+	color: #666;
+}
+
+textarea {
+	height: 150px;
+	resize: vertical;
+}
+
+input[type="submit"] {
+	background-color: #fff;
+	color: #8B5FBE;
+	padding: 10px 20px;
+	border: 2px solid #000000;
+	border-radius: 5px;
+	font-size: 1.2em;
+	transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+	background-color: #fff;
+	color: #fff;
+	border-color: 8;
+}
+
+input[type="submit"]:hover {
+	background-color: #8B5FBE;
+	color: #fff;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.footer-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1200px;
+}
+
+.logo-container {
+	flex-basis: 25%;
+	text-align: left;
+    float: left;
+}
+
+.logo-container img {
+	width: 100px;
+	height: 100px;
+}
+
+.social-links {
+	flex-basis: 50%;
+	text-align: center;
+}
+
+.social-links a {
+	display: inline-block;
+	background-color: #fff;
+	color: #666;
+	padding: 10px;
+	border-radius: 50%;
+	margin-right: 10px;
+	font-size: 1.5em;
+	transition: background-color 0.3s;
+}
+
+.social-links a:hover {
+	background-color: #666;
+	color: #fff;
+}
+
+.social-links i {
+	line-height: 1;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+  
+#portfolio h2{
+    padding-left: 20px;
+    padding-right: 25px;
+}
+
+#portfolio {
+    background-color: #f7f7f7;
+    padding: 50px;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .card {
+    flex-basis: calc(25% - 15px);
+    height: 400px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: 200px;
+    border-radius: 5px;
+  }
+  
+  .card h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .card p {
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+  
+  .card a {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+  }
+  
+  .card a:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+  }
+  
+  #reviews {
+    background-color: white;
+    padding: 50px;
+  }
+  
+  .review-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .review {
+    flex-basis: calc(25% - 15px);
+    height: 400px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .review .stars {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .review .checked {
+    color: orange;
+  }
+  
+  .review .review-comment {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .review .review-author img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .review .author-name {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  h2 .card-container .review-container{
+    width: 200px;
+    text-align: left;
+    margin-right: 50px;
+    font-size: 3em;
+  }
+  
+
+  #contact {
+    background-color: #f7f7f7;
+    color: #000;
+    padding-bottom: 100px;
+  }
+  
+  #contact h2 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 50px;
+  }
+  
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .contact-info {
+    flex-basis: 50%;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .contact-info img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .tiny-about {
+    font-size: 1.2em;
+    margin: 0;
+    color: #666;
+  }
+  
+  .contact-info h3 {
+    font-size: 2em;
+    margin: 20px 0;
+    color: #000;
+  }
+  
+  .about-me {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    color: #666;
+  }
+  
+  .contact-button a {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-button a:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+  }
+  
+  .contact-form {
+    flex-basis: 25%;
+    text-align: center;
+    padding-right: 70px;
+  }
+  
+  .contact-form label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #000;
+  }
+  
+  .contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .contact-form textarea {
+    height: 150px;
+    resize: vertical;
+  }
+  
+  .contact-form input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-form input[type="submit"]:hover {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+    }
+    .contact-info, .contact-form {
+      flex-basis: 100%;
+    }
+  }
+
+  input[id="name"], input[id="email"] input[id="message"], textarea {
+    border: 1px solid black;
+  }
+
+  :root {
+    --primary-color: #8B5FBE;
+    --secondary-color: #333;
+    --accent-color: #666;
+}
+
+a, nav a, .contact-button a, .get-in-touch a, .card a, input[type="submit"] {
+    color: var(--primary-color);
+}
+
+nav a:hover, .contact-button a:hover, .get-in-touch a:hover, .card a:hover, input[type="submit"]:hover {
+    color: var(--secondary-color);
+    background-color: var(--accent-color);
+}
+
+.contact-info {
+    padding-left: 45px;
+}
+
+.contact-container .contact-button{
+    margin: 0 auto;
+}
+
+.card{
+    height: fit-content;
+
+}
+
+.review{
+    height: fit-content;
+    background-color: #f7f7f7;
+
+}
+
+.review img{
+    object-fit: cover;
+}
+
+#second {
+    text-align: justify;
+}
